@@ -76,7 +76,7 @@ function Projects({ image, name, desc, live, source }) {
               rel="noreferrer"
               className="flex items-center p-[0.3rem] border border-black rounded-md text-sm bg-white dark:bg-[#20262E]"
             >
-              <AiFillGithub className="w-6 h-6" /> Code
+              <AiFillGithub className="w-6 h-6 pr-1" /> Code
             </a>
           </div>
         </div>

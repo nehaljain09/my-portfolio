@@ -1,10 +1,17 @@
 import React from "react";
-// import Typed from 'react-typed';
 import myImage from "./../assets/main_image.png";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Typewriter from "./Typewriter";
+import myPDF from "../assets/Nehal_Resume.pdf";
 
 function Main() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = myPDF;
+    link.download = "Nehal_Resume.pdf";
+    link.click();
+  };
+
   return (
     <div
       id="main"
@@ -36,6 +43,12 @@ function Main() {
             opportunities for learning and growth in the dynamic field of
             software development.
           </p>
+
+          <div className="border-2 border-solid border-[#ec6e59] bg-[#ec6e59] rounded-full text-white sm:w-48 p-4 mt-6 mb-6 text-center">
+            <button onClick={handleDownload} className="cursor-pointer">
+              Download Resume
+            </button>
+          </div>
         </div>
         <div className="flex py-[10px] tm:mt-[40px] items-start mt-[-30px] tm:pr-0 sm:pr-0 sm:justify-between sm:flex-col">
           <div className="box">
