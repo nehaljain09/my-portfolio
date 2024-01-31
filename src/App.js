@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="font-poppins select-none text-black bg-[#f9f1e6] dark:bg-[#20262E] dark:text-white  transition duration-500">
+    <div className="font-poppins select-none text-black bg-[#f9f1e6] transition duration-500">
       <Navbar />
       <Main />
       <Projects />

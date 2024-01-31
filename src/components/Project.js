@@ -5,7 +5,7 @@ function Projects({ image, name, desc, live, source }) {
   return (
     <div>
       <div className="p-4 w-full">
-        <div className="bg-white dark:bg-[#20262E] shadow-md rounded-md overflow-hidden">
+        <div className="bg-white shadow-md rounded-md overflow-hidden">
           <div className="mb-4">
             <img
               alt="project"
@@ -28,7 +28,7 @@ function Projects({ image, name, desc, live, source }) {
               href={source}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center p-[0.3rem] border border-black rounded-md text-sm bg-white dark:bg-[#20262E]"
+              className="flex items-center p-[0.3rem] border border-black rounded-md text-sm bg-white"
             >
               <AiFillGithub className="w-6 h-6 pr-1" /> Code
             </a>

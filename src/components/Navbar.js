@@ -37,21 +37,21 @@ function Navbar() {
       <div className="flex mt-[-2px] py-[2rem] pr-[3.5rem] sm:pl-[1.5rem] pr-[5rem] justify-between items-center relative">
         <TbWorldCode className="h-[2w] min-h-[35px] w-[7.8125vw] min-w-[134px] sm:h-[1.8rem] sm:w-[7rem]" />
         {!showMenu && (
-          <ul className="hidden tm:block sm:block md:flex font-[400] text-black dark:text-white dark:font-[300] text-custom-20 gap-[5rem] md:gap-[3rem] lg:gap-4rem">
+          <ul className="hidden tm:block sm:block md:flex font-[400] text-black text-custom-20 gap-[5rem] md:gap-[3rem] lg:gap-4rem">
             <a
-              className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+              className="tracking-wider hover:after:bg-black  font-[400]"
               onClick={() => scrollToComponent("experience")}
             >
               Experience
             </a>
             <a
-              className="tracking-wide hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+              className="tracking-wide hover:after:bg-black  font-[400]"
               onClick={() => scrollToComponent("projects")}
             >
               Projects
             </a>
             <a
-              className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+              className="tracking-wider hover:after:bg-black  font-[400]"
               onClick={() => scrollToComponent("contact")}
             >
               Contact
@@ -60,21 +60,21 @@ function Navbar() {
         )}
 
         {showMenu && (
-          <ul className="flex flex-col font-[400] text-black dark:font-[300] text-custom-20 gap-[2rem] md:gap-[3rem] lg:gap-2rem absolute top-[4.5rem] right-[3.5rem] z-10 bg-[#f1eded] p-4 shadow-md rounded">
+          <ul className="flex flex-col font-[400] text-black text-custom-20 gap-[2rem] md:gap-[3rem] lg:gap-2rem absolute top-[4.5rem] right-[3.5rem] z-10 bg-[#f1eded] p-4 shadow-md rounded">
             <a
-              className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+              className="tracking-wider hover:after:bg-black  font-[400]"
               onClick={() => scrollToComponent("experience")}
             >
               Experience
             </a>
             <a
-              className="tracking-wide hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+              className="tracking-wide hover:after:bg-black  font-[400]"
               onClick={() => scrollToComponent("projects")}
             >
               Projects
             </a>
             <a
-              className="tracking-wider hover:after:bg-black dark:hover:after:bg-[#ec6e59;] font-[400]"
+              className="tracking-wider hover:after:bg-black  font-[400]"
               onClick={() => scrollToComponent("contact")}
             >
               Contact

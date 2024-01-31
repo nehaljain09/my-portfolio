@@ -44,7 +44,7 @@ function Contact() {
         >
           <label>Name</label>
           <input
-            className="p-4 rounded-[4px] bg-[#ffffff] dark:bg-[#3d3e4b]"
+            className="p-4 rounded-[4px] bg-[#ffffff]"
             placeholder="Name"
             type="text"
             name="user_name"
@@ -53,7 +53,7 @@ function Contact() {
 
           <label>Email</label>
           <input
-            className="p-4 rounded-[4px]  bg-[#ffffff] dark:bg-[#3d3e4b]"
+            className="p-4 rounded-[4px]  bg-[#ffffff]"
             placeholder="Email"
             type="email"
             name="user_email"
@@ -62,7 +62,7 @@ function Contact() {
 
           <label>Your Message</label>
           <textarea
-            className="p-4 resize-none rounded-[4px] input bg-[#ffffff] dark:bg-[#343541] h-[198px] "
+            className="p-4 resize-none rounded-[4px] input bg-[#ffffff] h-[198px] "
             placeholder="Your message"
             type="text"
             name="message"
