@@ -34,7 +34,7 @@ function Main() {
             <Typewriter />
           </div>
           <p className="text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
-            I am a skilled Software Developer with over 2+ years of professional
+            I am a skilled Software Developer with over 3+ years of professional
             experience. My expertise includes a wide range of technologies and
             tools, with a strong focus on web development. I am proficient in
             JavaScript, ReactJS, VueJS, React-Redux, Sass, Bootstrap, Tailwind
